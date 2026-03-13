@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writings — Zaidan Akbar</title>
+  <meta name="description" content="Articles and reflections on energy, sustainability, and systems thinking by Zaidan Akbar." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231B3A2D'/><text x='16' y='22' font-family='sans-serif' font-weight='700' font-size='16' fill='%23F5F0E8' text-anchor='middle'>ZA</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==================== NOISE OVERLAY ==================== -->
+  <div class="noise-overlay" aria-hidden="true">
+    <svg width="100%" height="100%">
+      <filter id="noise">
+        <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" />
+      </filter>
+      <rect width="100%" height="100%" filter="url(#noise)" />
+    </svg>
+  </div>
+
+  <!-- ==================== NAV ISLAND ==================== -->
+  <nav class="nav-island nav--scrolled" id="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-name">
+        <span class="nav-name-full">M. Zaidan Akbar</span>
+        <span class="nav-name-initials">ZA</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#odyssey" class="nav-link">My Journey</a>
+        <a href="writings.html" class="nav-link nav-link--active">Writings</a>
+        <a href="hobbies.html" class="nav-link">Hobbies</a>
+      </div>
+
+      <div class="nav-right">
+        <a href="index.html#artifacts" class="nav-cta" data-magnetic>View my work</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+          <svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mobile-menu-link">Home</a>
+    <a href="index.html#odyssey" class="mobile-menu-link">My Journey</a>
+    <a href="writings.html" class="mobile-menu-link mobile-menu-link--active">Writings</a>
+    <a href="hobbies.html" class="mobile-menu-link">Hobbies</a>
+  </div>
+
+  <main>
+
+    <!-- ==================== WRITINGS HERO ==================== -->
+    <section class="writings-hero">
+      <div class="writings-hero-container">
+        <p class="section-eyebrow section-eyebrow--center">Articles &amp; Reflections</p>
+        <h1 class="writings-hero-title">Writings</h1>
+        <p class="writings-hero-subtitle">Thoughts on energy, sustainability, systems thinking, and the occasional personal reflection.</p>
+      </div>
+    </section>
+
+    <!-- ==================== WRITINGS GRID ==================== -->
+    <section class="writings-section">
+      <div class="writings-container">
+        <div class="writings-grid">
+
+          <!-- Card 1 — Graduation (2025-11-21) -->
+          <a href="writing-graduation.html" class="writing-card writing-card--has-thumb" data-writing>
+            <div class="writing-card-thumb">
+              <img src="writings/images/graduation-image1.jpeg" alt="Graduation day at the University of Edinburgh" loading="lazy" />
+            </div>
+            <div class="writing-card-body">
+              <span class="writing-tag">Personal</span>
+              <time class="writing-date" datetime="2025-11-21">21 November 2025</time>
+              <h2 class="writing-title">A Distinction Earned, A Journey Shared</h2>
+              <p class="writing-excerpt">Finishing a Master's with distinction — and realising this milestone was never just about me, but about the people who made it possible.</p>
+              <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Card 2 — Ultra Marathon (2025-05-07) -->
+          <a href="writing-marathon.html" class="writing-card writing-card--has-thumb" data-writing>
+            <div class="writing-card-thumb">
+              <img src="writings/images/marathon-image3.jpeg" alt="Running along the trail beside Loch Ness" loading="lazy" />
+            </div>
+            <div class="writing-card-body">
+              <span class="writing-tag">Personal</span>
+              <time class="writing-date" datetime="2025-05-07">7 May 2025</time>
+              <h2 class="writing-title">What an Ultra Marathon Has Taught Me</h2>
+              <p class="writing-excerpt">Completing a 50K ultra trail along Loch Ness at 23 — on mindset, preparation, and why moving slow is enough but stopping is not.</p>
+              <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Card 3 — Energy Leapfrogging (2025-04-21) NEW -->
+          <a href="writing-energy-leapfrogging.html" class="writing-card writing-card--has-thumb" data-writing>
+            <div class="writing-card-thumb">
+              <img src="writings/images/energy-leapfrogging-cover.jpeg" alt="Cover of the Barriers to Indonesia's Energy Leapfrogging report" loading="lazy" />
+            </div>
+            <div class="writing-card-body">
+              <span class="writing-tag">Energy Transition</span>
+              <time class="writing-date" datetime="2025-04-21">21 April 2025</time>
+              <h2 class="writing-title">Barriers to Indonesia's Energy Leapfrogging</h2>
+              <p class="writing-excerpt">Examining governance barriers, market incentives, and pathways for Indonesia to bypass fossil-fuel infrastructure in the Southeast Asian context.</p>
+              <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Card 4 — Environmental Modelling (2025-04-17) -->
+          <a href="writing-wetland.html" class="writing-card writing-card--has-thumb" data-writing>
+            <div class="writing-card-thumb">
+              <img src="writings/images/wetland-report-cover.jpeg" alt="Cover of the Wetland Water Extraction modelling report" loading="lazy" />
+            </div>
+            <div class="writing-card-body">
+              <span class="writing-tag">Environmental Modelling</span>
+              <time class="writing-date" datetime="2025-04-17">17 April 2025</time>
+              <h2 class="writing-title">Wetland Water Extraction: An Environmental Modelling Report</h2>
+              <p class="writing-excerpt">Modelling wetland water abstraction scenarios for a fictional company — exploring short, medium, and long-term extraction potential with ecological impact analysis.</p>
+              <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Card 5 — Policy Brief EfW (2025-02-23) -->
+          <a href="writing-policy-brief.html" class="writing-card writing-card--has-thumb" data-writing>
+            <div class="writing-card-thumb">
+              <img src="writings/images/policy-brief-cover.jpeg" alt="Cover of the Energy from Waste in Scotland policy brief" loading="lazy" />
+            </div>
+            <div class="writing-card-body">
+              <span class="writing-tag">Policy</span>
+              <time class="writing-date" datetime="2025-02-23">23 February 2025</time>
+              <h2 class="writing-title">Energy from Waste in Scotland: Balancing Capacity with Sustainability</h2>
+              <p class="writing-excerpt">A policy brief exploring the dilemma facing Scotland's waste management — balancing EfW capacity expansion with recycling targets and the waste hierarchy.</p>
+              <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Card 6 — Indonesia EV Ambition (2024-12-27) -->
+          <a href="writing-indonesia-ev.html" class="writing-card writing-card--has-thumb" data-writing>
+            <div class="writing-card-thumb">
+              <img src="writings/images/indonesia-ev-cover.jpeg" alt="Cover of The Invisible Cost of Indonesia's EV Ambition paper" loading="lazy" />
+            </div>
+            <div class="writing-card-body">
+              <span class="writing-tag">Energy Justice</span>
+              <time class="writing-date" datetime="2024-12-27">27 December 2024</time>
+              <h2 class="writing-title">The Invisible Cost of Indonesia's EV Ambition</h2>
+              <p class="writing-excerpt">A reflection on the hidden costs of Indonesia's EV transition — examining energy sources, resource extraction, and energy justice in decarbonisation.</p>
+              <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Card 7 — Ornamental Seeds to Fuels (2024-12-04) -->
+          <a href="writing-ornamental-seeds.html" class="writing-card writing-card--has-thumb" data-writing>
+            <div class="writing-card-thumb">
+              <img src="writings/images/ornamental-seeds-cover.jpeg" alt="Cover of the From Ornamental Seeds to Fuels paper" loading="lazy" />
+            </div>
+            <div class="writing-card-body">
+              <span class="writing-tag">Energy in the Global South</span>
+              <time class="writing-date" datetime="2024-12-04">4 December 2024</time>
+              <h2 class="writing-title">From Ornamental Seeds to Fuels</h2>
+              <p class="writing-excerpt">Exploring Indonesia's palm oil story — from colonial ornamental plants to a major biofuel driver, examining smallholder roles and sustainability challenges.</p>
+              <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Card 8 — Startup Journey (2023-12-15) NEW -->
+          <a href="writing-startup-journey.html" class="writing-card writing-card--has-thumb" data-writing>
+            <div class="writing-card-thumb">
+              <img src="writings/images/startup-journey-image1.jpeg" alt="The Smart Waste Center — Buangdisini's plastic recycling facility" loading="lazy" />
+            </div>
+            <div class="writing-card-body">
+              <span class="writing-tag">Personal</span>
+              <time class="writing-date" datetime="2023-12-15">15 December 2023</time>
+              <h2 class="writing-title">2023 Startup Journey Turning Point</h2>
+              <p class="writing-excerpt">Completing the Smart Waste Center — a plastic recycling facility for Buangdisini, built from scratch in six months of planning and construction.</p>
+              <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Card 9 — Waste Collectors (2023-09-10) NEW -->
+          <a href="writing-waste-collectors.html" class="writing-card writing-card--has-thumb" data-writing>
+            <div class="writing-card-thumb">
+              <img src="writings/images/waste-collectors-image1.jpeg" alt="Waste collectors working in a developing country" loading="lazy" />
+            </div>
+            <div class="writing-card-body">
+              <span class="writing-tag">Waste Management</span>
+              <time class="writing-date" datetime="2023-09-10">10 September 2023</time>
+              <h2 class="writing-title">The Unsung Heroes: Life of a Waste Collector</h2>
+              <p class="writing-excerpt">A look at the reality faced by waste collectors in developing countries — the hazards, the stigma, and the urgent need for change.</p>
+              <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Card 10 — Plastic Bottles (2023-07-20) NEW -->
+          <a href="writing-plastic-bottles.html" class="writing-card writing-card--has-thumb" data-writing>
+            <div class="writing-card-thumb">
+              <img src="writings/images/plastic-bottles-image1.jpeg" alt="Illustration of plastic bottle materials — PET, HDPE, and PVC" loading="lazy" />
+            </div>
+            <div class="writing-card-body">
+              <span class="writing-tag">Waste Management</span>
+              <time class="writing-date" datetime="2023-07-20">20 July 2023</time>
+              <h2 class="writing-title">Plastic Bottle Fun Facts</h2>
+              <p class="writing-excerpt">An illustrated breakdown of the three plastic types used in every plastic bottle — PET, HDPE, and PVC — and what makes each one different.</p>
+              <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Card 11 — Plastic Types (2023-06-15) NEW -->
+          <a href="writing-plastic-types.html" class="writing-card writing-card--has-thumb" data-writing>
+            <div class="writing-card-thumb">
+              <img src="writings/images/plastic-types-image1.jpeg" alt="Illustration of Resin Identification Codes for plastic types" loading="lazy" />
+            </div>
+            <div class="writing-card-body">
+              <span class="writing-tag">Waste Management</span>
+              <time class="writing-date" datetime="2023-06-15">15 June 2023</time>
+              <h2 class="writing-title">Plastic Type Categorisation</h2>
+              <p class="writing-excerpt">A quick guide to Resin Identification Codes — what the numbers #1 to #7 on your plastic products actually mean and which types can be recycled.</p>
+              <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+            </div>
+          </a>
+
+          <!-- Card 7 -->
+          <a href="#" class="writing-card" data-writing>
+            <span class="writing-tag">Circular Economy</span>
+            <h2 class="writing-title">Wind Turbine End-of-Life: What Comes Next?</h2>
+            <p class="writing-excerpt">Exploring decision frameworks for decommissioning, repowering, and recycling wind turbines — based on research with Green Cat Renewables.</p>
+            <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+          </a>
+
+          <!-- Card 8 -->
+          <a href="#" class="writing-card" data-writing>
+            <span class="writing-tag">Energy Transition</span>
+            <h2 class="writing-title">Building Energy Efficiency in Southeast Asia</h2>
+            <p class="writing-excerpt">Lessons from the PEEB-ASEAN programme on improving energy performance in buildings across the region.</p>
+            <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+          </a>
+
+          <!-- Card 9 -->
+          <a href="#" class="writing-card" data-writing>
+            <span class="writing-tag">Waste Management</span>
+            <h2 class="writing-title">From Campus Project to 47 Clients</h2>
+            <p class="writing-excerpt">How Buangdisini grew from a university idea into a waste management company serving corporate Indonesia.</p>
+            <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+          </a>
+
+          <!-- Card 10 -->
+          <a href="#" class="writing-card" data-writing>
+            <span class="writing-tag">Policy</span>
+            <h2 class="writing-title">Decommissioning in Orkney: A Policy Perspective</h2>
+            <p class="writing-excerpt">Analysing offshore decommissioning policy and its implications for Scotland's island communities.</p>
+            <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+          </a>
+
+          <!-- Card 11 -->
+          <a href="#" class="writing-card" data-writing>
+            <span class="writing-tag">Sustainability</span>
+            <h2 class="writing-title">Grid Decarbonization: Progress and Gaps</h2>
+            <p class="writing-excerpt">A review of where ASEAN grids stand on decarbonization and what it will take to close the gap.</p>
+            <span class="writing-link">Read article <span class="writing-arrow">&rarr;</span></span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== GATEWAY (Footer) ==================== -->
+ <footer id="gateway" class="gateway">
+  <div class="gateway-container">
+    <h2 class="gateway-title">Get in Touch</h2>
+
+    <div class="gateway-status">
+      <span class="live-dot">
+        <span class="live-dot-ping"></span>
+        <span class="live-dot-core"></span>
+      </span>
+      <p class="gateway-status-text">Open to opportunities, collaborations, and conversations</p>
+    </div>
+
+    <div class="gateway-links">
+      <a href="mailto:zaidan.getty@gmail.com" class="gateway-link" data-magnetic>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="16" x="2" y="4" rx="2"/>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+        </svg>
+        Email
+        <svg class="arrow-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"/>
+          <polyline points="7 7 17 7 17 17"/>
+        </svg>
+      </a>
+
+      <a href="tel:+62-878-7508-7060" class="gateway-link" data-magnetic>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        Phone
+        <svg class="arrow-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"/>
+          <polyline points="7 7 17 7 17 17"/>
+        </svg>
+      </a>
+
+      <a href="https://linkedin.com/in/zaidanakbar" target="_blank" rel="noopener noreferrer" class="gateway-link" data-magnetic>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+          <rect width="4" height="12" x="2" y="9"/>
+          <circle cx="4" cy="4" r="2"/>
+        </svg>
+        LinkedIn
+        <svg class="arrow-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"/>
+          <polyline points="7 7 17 7 17 17"/>
+        </svg>
+      </a>
+
+      <a href="https://instagram.com/zaidan_akbar" target="_blank" rel="noopener noreferrer" class="gateway-link" data-magnetic>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+          <circle cx="17.5" cy="6.5" r="1.5"/>
+        </svg>
+        Instagram
+        <svg class="arrow-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"/>
+          <polyline points="7 7 17 7 17 17"/>
+        </svg>
+      </a>
+    </div>
+
+    <p class="gateway-copyright">&copy; 2026 Zaidan Akbar. Building sustainable systems, one decision at a time.</p>
+  </div>
+</footer>
+
+<!-- ==================== SCRIPTS ==================== -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/MotionPathPlugin.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

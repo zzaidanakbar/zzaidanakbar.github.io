@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zaidan Akbar — Forging pathways where energy meets purpose.</title>
+  <meta name="description" content="Zaidan Akbar — Environmental engineer and sustainability strategist forging pathways where energy meets purpose." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231B3A2D'/><text x='16' y='22' font-family='sans-serif' font-weight='700' font-size='16' fill='%23F5F0E8' text-anchor='middle'>ZA</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==================== NOISE OVERLAY ==================== -->
+  <div class="noise-overlay" aria-hidden="true">
+    <svg width="100%" height="100%">
+      <filter id="noise">
+        <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" />
+      </filter>
+      <rect width="100%" height="100%" filter="url(#noise)" />
+    </svg>
+  </div>
+
+  <!-- ==================== NAV ISLAND ==================== -->
+  <nav class="nav-island" id="nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#prologue" class="nav-name">
+        <span class="nav-name-full">M. Zaidan Akbar</span>
+        <span class="nav-name-initials">ZA</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#prologue" class="nav-link">Home</a>
+        <a href="#odyssey" class="nav-link">My Journey</a>
+        <a href="writings.html" class="nav-link">Writings</a>
+        <a href="hobbies.html" class="nav-link">Hobbies</a>
+      </div>
+
+      <div class="nav-right">
+        <a href="#artifacts" class="nav-cta" data-magnetic>View my work</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <svg class="icon-menu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+          <svg class="icon-close" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#prologue" class="mobile-menu-link">Home</a>
+    <a href="#odyssey" class="mobile-menu-link">My Journey</a>
+    <a href="writings.html" class="mobile-menu-link">Writings</a>
+    <a href="hobbies.html" class="mobile-menu-link">Hobbies</a>
+  </div>
+
+  <main>
+
+    <!-- ==================== PROLOGUE (Hero) ==================== -->
+    <section id="prologue" class="prologue">
+      <div class="prologue-bg" id="prologueBg"></div>
+      <div class="prologue-gradient"></div>
+      <div class="prologue-content">
+        <p class="prologue-line1" id="prologueLine1">Hi, I'm</p>
+        <p class="prologue-line2" id="prologueLine2">Zaidan Akbar.</p>
+        <p class="prologue-motto" id="prologueMotto">Aut Viam Inveniam Aut Faciam</p>
+      </div>
+    </section>
+
+    <!-- ==================== ARTIFACTS (Expertise) ==================== -->
+    <section id="artifacts" class="artifacts">
+      <div class="artifacts-container">
+        <div class="section-label">01 / Expertise</div>
+        <h2 class="section-heading">What I Work On</h2>
+
+        <div class="artifacts-grid">
+
+          <!-- Card 1: Stack Shuffler -->
+          <div class="artifact-card-wrap" id="artifactCard1">
+            <div class="artifact-card artifact-card--light">
+              <div class="artifact-header">
+                <div class="artifact-icon artifact-icon--forest">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="17" y="1" width="6" height="6" rx="1"/><rect x="9" y="15" width="6" height="6" rx="1"/><path d="M4 7v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7"/><line x1="12" y1="11" x2="12" y2="15"/></svg>
+                </div>
+                <h3 class="artifact-title">Energy &amp; Buildings</h3>
+              </div>
+              <div class="shuffler-deck" id="shufflerDeck">
+                <div class="shuffler-card" data-index="0">
+                  <h4>PEEB-ASEAN Programme</h4>
+                  <p>Managing a EUR 2M programme on building energy efficiency across 11 ASEAN member states, targeting 40% energy intensity reduction by 2030.</p>
+                </div>
+                <div class="shuffler-card" data-index="1">
+                  <h4>Policy &amp; Coordination</h4>
+                  <p>Coordinating with government agencies, AFD, and ASEAN Secretariat to advance energy efficiency codes and green building standards.</p>
+                </div>
+                <div class="shuffler-card" data-index="2">
+                  <h4>Programme Monitoring</h4>
+                  <p>Building energy audits, consultant procurement for policy landscape analysis, Digital Hub enhancement, and regional workshop delivery.</p>
+                </div>
+              </div>
+              <div class="shuffler-dots" id="shufflerDots">
+                <button class="shuffler-dot shuffler-dot--active" data-dot="0" aria-label="Card 1"></button>
+                <button class="shuffler-dot" data-dot="1" aria-label="Card 2"></button>
+                <button class="shuffler-dot" data-dot="2" aria-label="Card 3"></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Energy Transition — Milestone Carousel -->
+          <div class="artifact-card-wrap" id="artifactCard2">
+            <div class="artifact-card artifact-card--dark">
+              <div class="artifact-header">
+                <div class="artifact-icon artifact-icon--terracotta">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                </div>
+                <h3 class="artifact-title artifact-title--light">Energy Transition</h3>
+                <div class="milestone-nav" id="milestoneNav">
+                  <button class="milestone-arrow milestone-arrow--prev" id="milestonePrev" aria-label="Previous milestone">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                  </button>
+                  <button class="milestone-arrow milestone-arrow--next" id="milestoneNext" aria-label="Next milestone">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                  </button>
+                </div>
+              </div>
+
+              <div class="milestone-viewport" id="milestoneViewport">
+                <div class="milestone-track" id="milestoneTrack">
+
+                  <!-- Milestone 1 -->
+                  <div class="milestone-card" data-milestone="0">
+                    <div class="milestone-metric">EUR 2M</div>
+                    <p class="milestone-what">Managing building energy efficiency programme across 11 ASEAN member states, targeting 40% energy intensity reduction by 2030</p>
+                    <div class="milestone-meta">
+                      <span class="milestone-where">ASEAN Centre for Energy &middot; Jakarta</span>
+                      <span class="milestone-when">Jan 2026 — Present</span>
+                    </div>
+                  </div>
+
+                  <!-- Milestone 2 -->
+                  <div class="milestone-card" data-milestone="1">
+                    <div class="milestone-metric">203</div>
+                    <p class="milestone-what">Wind turbines analyzed for lifespan under different incentive scenarios with QGIS spatial assessment &amp; PPA pricing models</p>
+                    <div class="milestone-meta">
+                      <span class="milestone-where">Constantine Wind Energy &middot; Edinburgh</span>
+                      <span class="milestone-when">Sep — Dec 2025</span>
+                    </div>
+                  </div>
+
+                  <!-- Milestone 3 -->
+                  <div class="milestone-card" data-milestone="2">
+                    <div class="milestone-metric">1,800</div>
+                    <p class="milestone-what">Material flows mapped via Python social network analysis for circular economy research, saving 300 tonnes CO2</p>
+                    <div class="milestone-meta">
+                      <span class="milestone-where">Edinburgh Earth Initiative &middot; Edinburgh</span>
+                      <span class="milestone-when">May — Jul 2025</span>
+                    </div>
+                  </div>
+
+                  <!-- Milestone 4 -->
+                  <div class="milestone-card" data-milestone="3">
+                    <div class="milestone-metric">Distinction</div>
+                    <p class="milestone-what">MSc Energy, Society &amp; Sustainability — fully funded by LPDP scholarship. Wind turbine EOL research &amp; offshore decommissioning policy</p>
+                    <div class="milestone-meta">
+                      <span class="milestone-where">University of Edinburgh &middot; Scotland</span>
+                      <span class="milestone-when">Sep 2024 — Aug 2025</span>
+                    </div>
+                  </div>
+
+                  <!-- Milestone 5 -->
+                  <div class="milestone-card" data-milestone="4">
+                    <div class="milestone-metric">30%</div>
+                    <p class="milestone-what">Carbon reduction target facilitated through energy transition workshops for global telco &amp; FMCG clients across SEAP region</p>
+                    <div class="milestone-meta">
+                      <span class="milestone-where">Arthur D. Little &middot; Global Consulting</span>
+                      <span class="milestone-when">Apr — Jul 2024</span>
+                    </div>
+                  </div>
+
+                  <!-- Milestone 6 -->
+                  <div class="milestone-card" data-milestone="5">
+                    <div class="milestone-metric">Top 10</div>
+                    <p class="milestone-what">Assessed 4 EV medium bus markets using DVF framework with P&amp;L and TCO analysis. Selected as top 10 graduate of YLI National Wave 15</p>
+                    <div class="milestone-meta">
+                      <span class="milestone-where">Indika Energy &middot; YLI by McKinsey</span>
+                      <span class="milestone-when">Jul — Nov 2023</span>
+                    </div>
+                  </div>
+
+                  <!-- Milestone 7 -->
+                  <div class="milestone-card" data-milestone="6">
+                    <div class="milestone-metric">Winner</div>
+                    <p class="milestone-what">Innovation Challenge Indonesia by GIZ &amp; adelphi. Also Runner Up of Youth Sustainable Project Competition by EU in ASEAN</p>
+                    <div class="milestone-meta">
+                      <span class="milestone-where">GIZ &amp; adelphi &middot; Indonesia</span>
+                      <span class="milestone-when">2022 — 2023</span>
+                    </div>
+                  </div>
+
+                  <!-- Milestone 8 -->
+                  <div class="milestone-card" data-milestone="7">
+                    <div class="milestone-metric">$150K</div>
+                    <p class="milestone-what">Co-founded waste management startup &amp; plastic recycling facility. Scaled to 47+ corporate clients, grew margins from 7% to 23%</p>
+                    <div class="milestone-meta">
+                      <span class="milestone-where">Buangdisini &middot; Malang, Indonesia</span>
+                      <span class="milestone-when">Aug 2021 — Sep 2023</span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="milestone-dots" id="milestoneDots">
+                <button class="milestone-dot milestone-dot--active" data-mdot="0" aria-label="Milestone 1"></button>
+                <button class="milestone-dot" data-mdot="1" aria-label="Milestone 2"></button>
+                <button class="milestone-dot" data-mdot="2" aria-label="Milestone 3"></button>
+                <button class="milestone-dot" data-mdot="3" aria-label="Milestone 4"></button>
+                <button class="milestone-dot" data-mdot="4" aria-label="Milestone 5"></button>
+                <button class="milestone-dot" data-mdot="5" aria-label="Milestone 6"></button>
+                <button class="milestone-dot" data-mdot="6" aria-label="Milestone 7"></button>
+                <button class="milestone-dot" data-mdot="7" aria-label="Milestone 8"></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: The Nexus (Flippable) -->
+          <div class="artifact-card-wrap" id="artifactCard3">
+            <div class="nexus-flip" id="nexusFlip">
+              <!-- Front -->
+              <div class="nexus-flip-front artifact-card artifact-card--light">
+                <div class="artifact-header">
+                  <div class="artifact-icon artifact-icon--forest">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20.4 3.2 5.6a1 1 0 0 1 .9-1.4h15.8a1 1 0 0 1 .9 1.4l-7.3 14.8a1 1 0 0 1-1.8 0z"/></svg>
+                  </div>
+                  <h3 class="artifact-title">The Nexus</h3>
+                </div>
+                <div class="precision-svg-wrap">
+                  <svg viewBox="0 0 400 340" class="precision-svg" id="precisionSvg">
+                    <line x1="0" y1="0" x2="0" y2="340" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="50" y1="0" x2="50" y2="340" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="100" y1="0" x2="100" y2="340" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="150" y1="0" x2="150" y2="340" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="200" y1="0" x2="200" y2="340" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="250" y1="0" x2="250" y2="340" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="300" y1="0" x2="300" y2="340" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="350" y1="0" x2="350" y2="340" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="400" y1="0" x2="400" y2="340" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="0" y1="0" x2="400" y2="0" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="0" y1="50" x2="400" y2="50" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="0" y1="100" x2="400" y2="100" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="0" y1="150" x2="400" y2="150" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="0" y1="200" x2="400" y2="200" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="0" y1="250" x2="400" y2="250" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <line x1="0" y1="300" x2="400" y2="300" stroke="#1A1A1A" stroke-opacity="0.05"/>
+                    <path id="triangle-path" d="M 200 70 L 96.08 250 L 303.92 250 Z" fill="none" stroke="#C65D3E" stroke-width="1.5" stroke-opacity="0.3"/>
+                    <line x1="200" y1="190" x2="200" y2="70" stroke="#1B3A2D" stroke-width="1" stroke-opacity="0.15" stroke-dasharray="4 4"/>
+                    <line x1="200" y1="190" x2="96.08" y2="250" stroke="#1B3A2D" stroke-width="1" stroke-opacity="0.15" stroke-dasharray="4 4"/>
+                    <line x1="200" y1="190" x2="303.92" y2="250" stroke="#1B3A2D" stroke-width="1" stroke-opacity="0.15" stroke-dasharray="4 4"/>
+                    <circle cx="200" cy="190" r="3" fill="#C65D3E" opacity="0.5"/>
+                    <circle cx="200" cy="70" r="4" fill="#1B3A2D"/>
+                    <text x="200" y="56" text-anchor="middle" class="svg-label">Energy</text>
+                    <circle cx="96.08" cy="250" r="4" fill="#1B3A2D"/>
+                    <text x="96.08" y="272" text-anchor="middle" class="svg-label">Society</text>
+                    <circle cx="303.92" cy="250" r="4" fill="#1B3A2D"/>
+                    <text x="303.92" y="272" text-anchor="middle" class="svg-label">Sustainability</text>
+                    <circle id="pathCursor" r="6" fill="#C65D3E" opacity="0.9">
+                      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite"/>
+                    </circle>
+                  </svg>
+                </div>
+                <button class="nexus-flip-cta" aria-label="Flip card to see explanation">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+                  Flip me
+                </button>
+              </div>
+              <!-- Back -->
+              <div class="nexus-flip-back artifact-card artifact-card--dark">
+                <div class="artifact-header">
+                  <div class="artifact-icon artifact-icon--terracotta">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20.4 3.2 5.6a1 1 0 0 1 .9-1.4h15.8a1 1 0 0 1 .9 1.4l-7.3 14.8a1 1 0 0 1-1.8 0z"/></svg>
+                  </div>
+                  <h3 class="artifact-title artifact-title--light">The Nexus</h3>
+                </div>
+                <div class="nexus-back-content">
+                  <div class="nexus-mapping">
+                    <div class="nexus-map-row">
+                      <span class="nexus-map-label">Energy</span>
+                      <span class="nexus-map-arrow">&rarr;</span>
+                      <span class="nexus-map-value">Profit</span>
+                    </div>
+                    <p class="nexus-map-desc">Energy systems drive economic value. Transitioning to clean energy unlocks long-term profitability while reducing risk.</p>
+                  </div>
+                  <div class="nexus-mapping">
+                    <div class="nexus-map-row">
+                      <span class="nexus-map-label">Society</span>
+                      <span class="nexus-map-arrow">&rarr;</span>
+                      <span class="nexus-map-value">People</span>
+                    </div>
+                    <p class="nexus-map-desc">Energy access shapes communities. Just transitions ensure no one is left behind as systems evolve.</p>
+                  </div>
+                  <div class="nexus-mapping">
+                    <div class="nexus-map-row">
+                      <span class="nexus-map-label">Sustainability</span>
+                      <span class="nexus-map-arrow">&rarr;</span>
+                      <span class="nexus-map-value">Planet</span>
+                    </div>
+                    <p class="nexus-map-desc">Every decision carries ecological weight. My work centers on solutions that regenerate rather than extract.</p>
+                  </div>
+                </div>
+                <button class="nexus-flip-cta nexus-flip-cta--back" aria-label="Flip card back">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 20 23 14 17 14"/><path d="M20.49 9A9 9 0 1 0 21.54 15L23 14"/></svg>
+                  Flip back
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MANIFESTO (Philosophy) ==================== -->
+    <section id="manifesto" class="manifesto">
+      <div class="manifesto-container">
+        <p class="manifesto-text">
+          <span class="manifesto-word">I</span>
+          <span class="manifesto-word">learned</span>
+          <span class="manifesto-word">the</span>
+          <span class="manifesto-word">hard</span>
+          <span class="manifesto-word">way:</span>
+          <br class="manifesto-break" />
+          <span class="manifesto-word">growth</span>
+          <span class="manifesto-word">without</span>
+          <span class="manifesto-word">balance</span>
+          <br class="manifesto-break" />
+          <span class="manifesto-word">isn't</span>
+          <span class="manifesto-word">growth.</span>
+          <br class="manifesto-break" />
+          <span class="manifesto-word">It's</span>
+          <span class="manifesto-word">just</span>
+          <span class="manifesto-word manifesto-word--accent">momentum</span>
+          <span class="manifesto-word manifesto-word--accent">that</span>
+          <span class="manifesto-word manifesto-word--accent">crashes.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== ODYSSEY (Career Journey) ==================== -->
+    <section id="odyssey" class="odyssey">
+      <div class="odyssey-container">
+        <div class="section-label">02 / Experience</div>
+        <h2 class="exp-heading">Where I've <em>worked</em></h2>
+
+        <div class="timeline">
+
+          <!-- ASEAN Centre for Energy -->
+          <article class="timeline-item" data-reveal>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Programme Officer &mdash; PEEB-ASEAN</h3>
+                  <div class="timeline-company">ASEAN Centre for Energy &mdash; Jakarta &middot; Full-time</div>
+                </div>
+                <time class="timeline-date">Jan 2026 &mdash; Present</time>
+              </div>
+              <div class="timeline-metrics">
+                <div class="metric">
+                  <span class="metric-value">EUR 2M</span>
+                  <span class="metric-label">Programme budget for building energy efficiency</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">11</span>
+                  <span class="metric-label">ASEAN member states engaged</span>
+                </div>
+              </div>
+              <ul class="timeline-highlights">
+                <li>Providing programme management support for PEEB-ASEAN Component 1 implementation</li>
+                <li>Contributing to ASEAN's 40% energy intensity reduction target by 2030</li>
+                <li>Coordinating with government agencies, AFD, and ASEAN Secretariat</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Constantine Wind Energy -->
+          <article class="timeline-item" data-reveal>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Operations &amp; Development</h3>
+                  <div class="timeline-company">Constantine Wind Energy &mdash; Edinburgh &middot; Contract</div>
+                </div>
+                <time class="timeline-date">Sep &mdash; Dec 2025</time>
+              </div>
+              <div class="timeline-metrics">
+                <div class="metric">
+                  <span class="metric-value">203</span>
+                  <span class="metric-label">Wind turbines analyzed across onshore sites</span>
+                </div>
+              </div>
+              <ul class="timeline-highlights">
+                <li>Analyzing lifespan of small-medium wind turbines under different incentive scenarios</li>
+                <li>Creating site layout drawings in QGIS and conducting site feasibility assessments</li>
+                <li>Assisting in PPA pricing strategies and due diligence on wind portfolio acquisitions</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Edinburgh Earth Initiative -->
+          <article class="timeline-item" data-reveal>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Research Assistant &mdash; Circular Economy</h3>
+                  <div class="timeline-company">Edinburgh Earth Initiative &mdash; University of Edinburgh</div>
+                </div>
+                <time class="timeline-date">May &mdash; Jul 2025</time>
+              </div>
+              <div class="timeline-metrics">
+                <div class="metric">
+                  <span class="metric-value">1,800</span>
+                  <span class="metric-label">Material flows mapped via Python SNA</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">300t</span>
+                  <span class="metric-label">CO2 savings identified</span>
+                </div>
+              </div>
+              <ul class="timeline-highlights">
+                <li>Social network analysis of circular economy material flows using Python</li>
+                <li>Research contributing to Edinburgh Earth Initiative's sustainability mission</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- University of Edinburgh -->
+          <article class="timeline-item" data-reveal>
+            <div class="timeline-marker timeline-marker--secondary"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">MSc Energy, Society &amp; Sustainability</h3>
+                  <div class="timeline-company">University of Edinburgh &mdash; Scotland &middot; LPDP Scholar</div>
+                </div>
+                <time class="timeline-date">Sep 2024 &mdash; Aug 2025</time>
+              </div>
+              <div class="timeline-metrics">
+                <div class="metric">
+                  <span class="metric-value">Distinction</span>
+                  <span class="metric-label">Graduated with highest classification</span>
+                </div>
+              </div>
+              <ul class="timeline-highlights">
+                <li>Circular economy research at Edinburgh Earth Initiative &mdash; Python SNA, 1,800 material flows, 300 tonnes CO2 saved</li>
+                <li>Wind turbine end-of-life decision frameworks with Green Cat Renewables using AHP methodology</li>
+                <li>Offshore decommissioning policy analysis with Xodus Group in Orkney</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Arthur D. Little -->
+          <article class="timeline-item" data-reveal>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Spring Business Analyst, SEAP Region</h3>
+                  <div class="timeline-company">Arthur D. Little &mdash; Global Management Consulting</div>
+                </div>
+                <time class="timeline-date">Apr &mdash; Jul 2024</time>
+              </div>
+              <ul class="timeline-highlights">
+                <li>Market research and product analysis for new product launch with leading FMCG company</li>
+                <li>Data center, fiber market, and broadband analysis for global telco providers in SEA</li>
+                <li>Energy transition workshop facilitation targeting 30% carbon reduction by 2030</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Show earlier roles -->
+          <button class="timeline-toggle" id="timelineToggle" aria-expanded="false">
+            Show earlier roles <span class="timeline-toggle-arrow">&darr;</span>
+          </button>
+
+          <!-- Earlier roles -->
+          <div class="timeline-more" id="timelineMore">
+
+            <!-- Bekasbaru -->
+            <article class="timeline-item" data-reveal>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <div>
+                    <h3 class="timeline-role">Business Development Manager</h3>
+                    <div class="timeline-company">Bekasbaru &mdash; Pre-loved Marketplace</div>
+                  </div>
+                  <time class="timeline-date">Oct 2023 &mdash; Jan 2024</time>
+                </div>
+                <ul class="timeline-highlights">
+                  <li>Increased sales volume per transaction by 8% and number of transactions by 15%</li>
+                  <li>Managed business development for pre-loved marketplace promoting circular consumption</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Indika Energy -->
+            <article class="timeline-item" data-reveal>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <div>
+                    <h3 class="timeline-role">Project Lead &mdash; YLI by McKinsey</h3>
+                    <div class="timeline-company">Indika Energy &mdash; Jakarta &middot; Fellowship</div>
+                  </div>
+                  <time class="timeline-date">Jul &mdash; Nov 2023</time>
+                </div>
+                <ul class="timeline-highlights">
+                  <li>Assessed 4 potential markets for EV medium buses using DVF framework</li>
+                  <li>Led pilot rollout planning with P&amp;L and TCO calculations</li>
+                  <li>Selected as one of top 10 graduates of YLI National Wave 15</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Buangdisini -->
+            <article class="timeline-item" data-reveal>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <div>
+                    <h3 class="timeline-role">Co-Founder &amp; COO</h3>
+                    <div class="timeline-company">Buangdisini &mdash; Malang, Indonesia &middot; Startup</div>
+                  </div>
+                  <time class="timeline-date">Aug 2021 &mdash; Sep 2023</time>
+                </div>
+                <div class="timeline-metrics">
+                  <div class="metric">
+                    <span class="metric-value">$150K</span>
+                    <span class="metric-label">Pre-seed funding raised</span>
+                  </div>
+                  <div class="metric">
+                    <span class="metric-value">7%&rarr;23%</span>
+                    <span class="metric-label">Gross profit margin growth</span>
+                  </div>
+                </div>
+                <ul class="timeline-highlights">
+                  <li>Co-founded waste management startup and plastic recycling facility</li>
+                  <li>Increased on-site product output 8x and reduced contamination rate to below 5%</li>
+                  <li>Scaled operations to 47+ corporate clients across Indonesia</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Brawijaya University -->
+            <article class="timeline-item" data-reveal>
+              <div class="timeline-marker timeline-marker--secondary"></div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <div>
+                    <h3 class="timeline-role">B.Eng Environmental Engineering</h3>
+                    <div class="timeline-company">Brawijaya University &mdash; Malang, Indonesia</div>
+                  </div>
+                  <time class="timeline-date">Aug 2019 &mdash; Dec 2022</time>
+                </div>
+                <div class="timeline-metrics">
+                  <div class="metric">
+                    <span class="metric-value">3.75</span>
+                    <span class="metric-label">GPA out of 4.00</span>
+                  </div>
+                </div>
+                <ul class="timeline-highlights">
+                  <li>Thesis on optimization of PET plastic waste management by digitalization</li>
+                  <li>Research on Palm Oil EFB as feedstock for hydrothermal carbonization</li>
+                </ul>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== GATEWAY (Footer) ==================== -->
+<footer id="gateway" class="gateway">
+  <div class="gateway-container">
+    <h2 class="gateway-title">Get in Touch</h2>
+
+    <div class="gateway-status">
+      <span class="live-dot">
+        <span class="live-dot-ping"></span>
+        <span class="live-dot-core"></span>
+      </span>
+      <p class="gateway-status-text">Open to opportunities, collaborations, and conversations</p>
+    </div>
+
+    <div class="gateway-links">
+      <a href="mailto:zaidan.getty@gmail.com" class="gateway-link" data-magnetic>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="16" x="2" y="4" rx="2"/>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+        </svg>
+        Email
+        <svg class="arrow-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"/>
+          <polyline points="7 7 17 7 17 17"/>
+        </svg>
+      </a>
+
+      <a href="tel:+62-878-7508-7060" class="gateway-link" data-magnetic>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        Phone
+        <svg class="arrow-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"/>
+          <polyline points="7 7 17 7 17 17"/>
+        </svg>
+      </a>
+
+      <a href="https://linkedin.com/in/zaidanakbar" target="_blank" rel="noopener noreferrer" class="gateway-link" data-magnetic>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+          <rect width="4" height="12" x="2" y="9"/>
+          <circle cx="4" cy="4" r="2"/>
+        </svg>
+        LinkedIn
+        <svg class="arrow-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"/>
+          <polyline points="7 7 17 7 17 17"/>
+        </svg>
+      </a>
+
+      <a href="https://instagram.com/zaidan_akbar" target="_blank" rel="noopener noreferrer" class="gateway-link" data-magnetic>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+          <circle cx="17.5" cy="6.5" r="1.5"/>
+        </svg>
+        Instagram
+        <svg class="arrow-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"/>
+          <polyline points="7 7 17 7 17 17"/>
+        </svg>
+      </a>
+    </div>
+
+    <p class="gateway-copyright">&copy; 2026 Zaidan Akbar. Building sustainable systems, one decision at a time.</p>
+  </div>
+</footer>
+
+<!-- ==================== SCRIPTS ==================== -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/MotionPathPlugin.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

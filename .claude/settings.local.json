@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo view:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npm install:*)",
+      "Bash(git clone:*)",
+      "Bash(python3:*)",
+      "Bash(sw_vers:*)",
+      "Bash(curl:*)",
+      "Bash(bash)",
+      "Bash(sips:*)",
+      "WebFetch(domain:www.linkedin.com)",
+      "Bash(node -c:*)",
+      "Bash(open http://localhost:8081/writings.html)",
+      "Bash(open http://localhost:8081/index.html)",
+      "WebFetch(domain:zhafransyahh.github.io)",
+      "WebFetch(domain:)",
+      "Bash(node --check:*)",
+      "Bash(kill:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(file /Users/zaidanakbar/Documents/Website/Portfolio/writings/*.docx)",
+      "Bash(pip3 install pymupdf)",
+      "Bash(ls -la \"/Users/zaidanakbar/Documents/Website/Portfolio/writings/Barriers\"*)"
+    ]
+  }
+}
