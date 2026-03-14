@@ -1,4 +1,45 @@
 /* ========================================
+   0. Theme Toggle — Dark / Light Mode
+   ======================================== */
+(function () {
+  var toggle = document.getElementById('themeToggle');
+  if (!toggle) return;
+
+  var iconSun = toggle.querySelector('.icon-sun');
+  var iconMoon = toggle.querySelector('.icon-moon');
+
+  function getTheme() {
+    return document.documentElement.getAttribute('data-theme') || 'light';
+  }
+
+  function updateIcons() {
+    var isDark = getTheme() === 'dark';
+    if (iconSun && iconMoon) {
+      iconSun.style.display = isDark ? 'block' : 'none';
+      iconMoon.style.display = isDark ? 'none' : 'block';
+    }
+  }
+
+  updateIcons();
+
+  toggle.addEventListener('click', function () {
+    var current = getTheme();
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+    updateIcons();
+  });
+
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
+    if (!localStorage.getItem('theme')) {
+      var newTheme = e.matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      updateIcons();
+    }
+  });
+})();
+
+/* ========================================
    GSAP Setup
    ======================================== */
 gsap.registerPlugin(ScrollTrigger, MotionPathPlugin);

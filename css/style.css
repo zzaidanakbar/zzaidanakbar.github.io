@@ -22,6 +22,23 @@
 }
 
 /* ========================================
+   Dark Theme — Variable Overrides
+   ======================================== */
+[data-theme="dark"] {
+  --forest: #1E3F31;
+  --forest-light: #2B5543;
+  --terracotta: #D4785E;
+  --terracotta-light: #E08B72;
+  --linen: #1A1D1E;
+  --linen-dark: #252829;
+  --carbon: #E8E0D4;
+  --carbon-light: #D0C8BA;
+  --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.2);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.3), 0 4px 6px -4px rgba(0,0,0,0.3);
+  --shadow-2xl: 0 25px 50px -12px rgba(0,0,0,0.5);
+}
+
+/* ========================================
    Reset & Base
    ======================================== */
 *, *::before, *::after {
@@ -42,6 +59,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   line-height: 1.5;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 ::selection {
@@ -1982,6 +2000,163 @@ time.article-date--dark::after {
   .article-hero-content--minimal {
     padding: 10rem 2rem 5rem;
   }
+}
+
+/* ========================================
+   Theme Toggle Button
+   ======================================== */
+.theme-toggle {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--linen-dark);
+  color: var(--carbon);
+  background: none;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+  flex-shrink: 0;
+}
+.theme-toggle:hover {
+  border-color: var(--terracotta);
+  color: var(--terracotta);
+}
+
+/* ========================================
+   Dark Theme — Hardcoded Color Overrides
+   ======================================== */
+
+/* Noise overlay */
+[data-theme="dark"] .noise-overlay { opacity: 0.04; }
+
+/* Prologue hero gradient — keep dark regardless of theme */
+[data-theme="dark"] .prologue-gradient {
+  background: linear-gradient(to top, #1A1D1E, rgba(26,29,30,0.6) 50%, rgba(26,29,30,0.2));
+}
+
+/* Nav island */
+[data-theme="dark"] .nav-island.nav--scrolled {
+  background: rgba(26, 29, 30, 0.8);
+}
+[data-theme="dark"] .nav-link {
+  color: rgba(232, 224, 212, 0.6);
+}
+[data-theme="dark"] .nav-link:hover {
+  color: var(--carbon);
+}
+
+/* Mobile menu */
+[data-theme="dark"] .mobile-menu {
+  background: rgba(26, 29, 30, 0.95);
+}
+
+/* Section labels */
+[data-theme="dark"] .section-label {
+  color: rgba(232, 224, 212, 0.35);
+}
+
+/* Artifact cards */
+[data-theme="dark"] .artifact-card--light {
+  background: #232628;
+}
+[data-theme="dark"] .artifact-icon--forest {
+  background: rgba(30, 63, 49, 0.2);
+}
+[data-theme="dark"] .artifact-icon--terracotta {
+  background: rgba(212, 120, 94, 0.2);
+}
+
+/* Shuffler */
+[data-theme="dark"] .shuffler-card p {
+  color: rgba(232, 224, 212, 0.6);
+}
+[data-theme="dark"] .shuffler-dot {
+  background: rgba(232, 224, 212, 0.2);
+}
+
+/* Nexus */
+[data-theme="dark"] .nexus-flip-cta {
+  color: rgba(232, 224, 212, 0.4);
+}
+
+/* SVG labels */
+[data-theme="dark"] .svg-label {
+  fill: rgba(232, 224, 212, 0.6);
+}
+
+/* Timeline / Odyssey */
+[data-theme="dark"] .timeline-company {
+  color: rgba(232, 224, 212, 0.5);
+}
+[data-theme="dark"] .timeline-date {
+  color: rgba(232, 224, 212, 0.35);
+}
+[data-theme="dark"] .metric {
+  background: #232628;
+}
+[data-theme="dark"] .metric-label {
+  color: rgba(232, 224, 212, 0.5);
+}
+[data-theme="dark"] .timeline-highlights li {
+  color: rgba(232, 224, 212, 0.65);
+}
+[data-theme="dark"] .timeline-toggle {
+  color: rgba(232, 224, 212, 0.4);
+}
+
+/* Writings page */
+[data-theme="dark"] .writings-hero-subtitle {
+  color: rgba(232, 224, 212, 0.6);
+}
+[data-theme="dark"] .writing-card {
+  background: #232628;
+}
+[data-theme="dark"] .writing-date {
+  color: rgba(232, 224, 212, 0.45);
+}
+[data-theme="dark"] .writing-excerpt {
+  color: rgba(232, 224, 212, 0.6);
+}
+
+/* Hobbies */
+[data-theme="dark"] .hobby-detail {
+  color: rgba(232, 224, 212, 0.35);
+}
+
+/* Article pages */
+[data-theme="dark"] .article-body p {
+  color: rgba(232, 224, 212, 0.75);
+}
+[data-theme="dark"] .article-body p em {
+  color: var(--carbon);
+}
+[data-theme="dark"] .article-figure figcaption {
+  color: rgba(232, 224, 212, 0.4);
+}
+[data-theme="dark"] .article-pullquote {
+  background: rgba(212, 120, 94, 0.08);
+}
+[data-theme="dark"] .article-lesson {
+  background: #232628;
+}
+[data-theme="dark"] .article-lesson p {
+  color: rgba(232, 224, 212, 0.7);
+}
+[data-theme="dark"] .article-download {
+  background: #232628;
+}
+[data-theme="dark"] .article-download-meta {
+  color: rgba(232, 224, 212, 0.45);
+}
+[data-theme="dark"] .article-nav-link {
+  background: #232628;
+}
+
+/* Images — subtle brightness reduction */
+[data-theme="dark"] img:not([src*=".svg"]) {
+  filter: brightness(0.9);
 }
 
 /* ========================================
