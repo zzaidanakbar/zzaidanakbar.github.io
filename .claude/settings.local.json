@@ -22,7 +22,9 @@
       "mcp__Claude_Preview__preview_start",
       "Bash(file /Users/zaidanakbar/Documents/Website/Portfolio/writings/*.docx)",
       "Bash(pip3 install pymupdf)",
-      "Bash(ls -la \"/Users/zaidanakbar/Documents/Website/Portfolio/writings/Barriers\"*)"
+      "Bash(ls -la \"/Users/zaidanakbar/Documents/Website/Portfolio/writings/Barriers\"*)",
+      "WebFetch(domain:www.strava.com)",
+      "WebSearch"
     ]
   }
 }
