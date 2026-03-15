@@ -2102,6 +2102,15 @@ time.article-date--dark::after {
 /* Noise overlay */
 [data-theme="dark"] .noise-overlay { opacity: 0.04; }
 
+/* Prologue hero — keep text bright on photo overlay */
+[data-theme="dark"] .prologue-line1,
+[data-theme="dark"] .prologue-line2 {
+  color: #F5F0E8;
+}
+[data-theme="dark"] .prologue-motto {
+  color: rgba(245, 240, 232, 0.4);
+}
+
 /* Prologue hero gradient — keep dark regardless of theme */
 [data-theme="dark"] .prologue-gradient {
   background: linear-gradient(to top, #1A1D1E, rgba(26,29,30,0.6) 50%, rgba(26,29,30,0.2));
